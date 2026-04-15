@@ -1,0 +1,36 @@
+.main {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.board {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.column {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  padding: 1rem;
+  min-width: 260px;
+}
+
+.colTitle {
+  margin-bottom: 0.75rem;
+  font-size: 15px;
+}
+
+.card {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  transition: transform 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
